@@ -24,6 +24,18 @@ def insertion_sort(data):
                 break
         write(data, i)
     
+def insertion_sort2(data):
+    write(data, 0)
+    
+    for i in range(1, len(data)):
+        hand = data[i]
+        j = i - 1
+        while j > -1 and data[j] > hand:
+            data[j + 1] = data[j]
+            j = j - 1
+        data[j + 1] = hand
+        write(data, i)
+    
  
 data = load() 
-insertion_sort(data)
+insertion_sort2(data)
