@@ -1,0 +1,57 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+void draw(const vector<vector<bool>> & tab, int v) {
+	cout << endl << " ";
+	for (int i = 0; i < v; i++)
+		cout << " " << i;
+	cout << endl;
+	for (int i = 0; i < v; i++) {
+		cout << i;
+		for (int j = 0; j < v; j++)
+			cout << " " << tab[i][j];
+		cout << endl;
+	}
+}
+
+int main() {
+	////////////////////////////////////////////////////////////////////////////
+	//	POBIERANIE DANYCH
+	////////////////////////////////////////////////////////////////////////////
+	int v;
+	cin >> v;
+	vector<vector<bool>> tab(v, vector<bool>(v));
+	while (cin.good()) {
+		int A, B;
+		cin >> A >> B;
+		tab[A][B] = true;
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	//	RYSOWANIE MACIERZY
+	////////////////////////////////////////////////////////////////////////////
+	cout << endl << "Graf skierowany:" << endl;
+	draw(tab, v);
+	
+
+	////////////////////////////////////////////////////////////////////////////
+	//	ZAMIANA NA GRAF NIESKIEROWANY
+	////////////////////////////////////////////////////////////////////////////	
+	for (int i = 1; i < v; i++) {
+		for (int j = 0; j < i; j++) {
+			if (tab[i][j] || tab[j][i]) {
+				tab[i][j] = true;
+				tab[j][i] = true;
+			}
+		}				
+	}
+	
+	////////////////////////////////////////////////////////////////////////////
+	//	RYSOWANIE MACIERZY
+	////////////////////////////////////////////////////////////////////////////
+	cout << endl << "Graf nieskierowany:" << endl;
+	draw(tab, v);
+	
+	return 0;
+}
