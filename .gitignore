@@ -1,1 +1,8 @@
 inprogress
+t
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs
+.vscode
