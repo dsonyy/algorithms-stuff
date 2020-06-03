@@ -20,10 +20,8 @@ int main() {
  
     long long r = 1;
     for (auto x : a) {
-        long long tmp = r;
-        r *= x;
-        if (r / x == tmp && r <= 1000000000000000000) {
-            continue;
+        if (r <= 1000000000000000000 / x) {
+            r *= x;
         }
         else {
             cout << -1 << "\n";
