@@ -7,3 +7,8 @@ t
 *.vcxproj.user
 .vs
 .vscode
+
+Debug
+Release
+in.txt
+out.txt
