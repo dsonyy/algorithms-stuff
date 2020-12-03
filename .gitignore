@@ -1,6 +1,3 @@
-inprogress
-handbook
-t
 *.sln
 *.vcxproj
 *.vcxproj.filters
@@ -10,5 +7,6 @@ t
 
 Debug
 Release
-in.txt
-out.txt
+
+potyczki-2020
+*.exe
