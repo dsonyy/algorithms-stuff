@@ -1,0 +1,5 @@
+A) Slow wystepjacych wiecej niz raz: 75
+   Slowo o najwiekszej liczbie wystapien: EBFAABCCBD
+   Liczba jego wystapien: 30
+B) Liczb parzystych: 483
+C) Palindromow: 20
