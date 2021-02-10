@@ -1,0 +1,19 @@
+A
+ dostawy:
+siano 	12
+¿o³êdzie 	13
+
+B
+same ¿o³êdzie: 	28.12.2018
+
+C
+¿o³êdzie 	26
+siano 	64
+
+D
+zestawienie:			
+Rano:	31.gru	31.sty	28.lut
+siano 	55,60	47,20	49,60
+¿o³êdzie 	19,20	17,60	12,00
+
+
