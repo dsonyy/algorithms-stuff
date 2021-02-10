@@ -1,0 +1,84 @@
+
+A
+Nazwa	Miejscowoœæ	PoliczOfId_zatrudn_naucz
+Gimnazjum Nr 1	Anio³kowo	1
+Gimnazjum Nr 2	Anio³kowo	2
+I Liceum Ogólnokszta³cace	Anio³kowo	1
+Szko³a Podstawowa Nr 1	Anio³kowo	1
+Szko³a Podstawowa Nr 2	Anio³kowo	2
+Szko³a Podstawowa Nr 3	Anio³kowo	1
+Szko³a Podstawowa Nr 4	Anio³kowo	1
+Technikum Elektroniczne	Anio³kowo	2
+Gimnazjum Nr 1		Modralin		2
+Gimnazjum Nr 3		Modralin	4
+I Liceum Ogólnokszta³cace	Modralin	3
+II Liceum Ogólnokszta³cace	Modralin	2
+Szko³a Podstawowa Nr 2	Modralin	1
+Szko³a Podstawowa Nr 3	Modralin	1
+Szko³a Podstawowa Nr 4	Modralin	1
+Zespó³ Szkó³ Zawodowych	Modralin	2
+Szko³a Podstawowa	Wielka Wola	1
+
+B
+Imiê	Nazwisko		PoliczOfIndeks
+Jan	Midas		8
+Anna	Italska		6
+Ludwik	Œwiêty		6
+Ma³gorzata	Holenderska	5
+Harald	Norweski		5
+Jadwiga	Andegaweñska	4
+Boles³aw	Rogatka		4
+Filip	Hiszpañski	4
+Franciszek	Francuski	4
+Gustaw	Szwedzki		4
+Aleksander	Wielki	4
+Iwan	GroŸny		4
+Karol	Szwedzki		4
+Kleopatra	Ptolemeusz	4
+Jan	Zwyciêski		4
+Filip	Macedoñski	3
+Karol	Wielki		3
+Henryk	Walezy		3
+Wiktoria	Angielska		3
+Izabella	Kastylijska	3
+Robert	Karoling		3
+Ferdynand	Aragoñski	3
+Cyrus	Perski		3
+Katarzyna	Medycejska	2
+Stefan	Wêgierski		2
+W³adys³aw	Litewski	1
+Artur	Celtycki		1
+Maria	Stuart		0
+Henryk	Hugenot		0
+Mieszko	Stary		0
+
+C
+Imiê	Nazwisko	PoliczOfId_szko³y
+Jan	Midas	2
+
+D
+Stopieñ_studiów	PoliczOfIndeks
+1	56
+2	44
+
+E
+Imiê		Nazwisko		Typ_szko³y	PoliczOfIndeks
+Wiktoria		Angielska		GIM		3
+Artur		Celtycki		GIM		1
+Franciszek	Francuski		GIM		4
+Robert		Karoling		GIM		3
+W³adys³aw	Litewski		GIM		1
+Filip		Macedoñski	GIM		3
+Jan		Midas		GIM		4
+Cyrus		Perski		GIM		3
+Boles³aw		Rogatka		GIM		4
+
+F
+Typ_szko³y	Miejscowoœæ	1	2	3
+GIM		Anio³kowo		5	5
+GIM		Modralin			8	8
+SP		Anio³kowo		10	7
+SP		Modralin			9	1
+SP		Wielka Wola		1	2
+SPGIM		Anio³kowo	7	5	
+SPGIM		Modralin		20	12	
